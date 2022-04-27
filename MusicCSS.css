@@ -1,0 +1,64 @@
+@font-face{ font-family:ArchivoBlack;
+    src: url(font/ArchivoBlack-Regular.ttf);
+    }
+body{
+    font-family: ArchivoBlack;
+    background-image: url("img/merch.jpg");
+    background-size: cover;
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.centered{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: ArchivoBlack;
+    color: #FFF;
+    text-decoration: none;
+}
+.wphoto{
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+#wphoto{
+    max-height: 50vh;
+}
+.bphoto{
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+#bphoto{
+    max-height: 50vh;
+}
+#wdbl{
+    max-width: 70vw;
+}
+    a:link {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff0f0;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #FFF;
+    text-decoration: none;
+  }

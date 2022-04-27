@@ -1,0 +1,46 @@
+@font-face{ font-family:ArchivoBlack;
+    src: url(font/ArchivoBlack-Regular.ttf);
+    }
+body{
+    font-family: ArchivoBlack;
+    background-image: url("img/pag1.jpg");
+    height: 100vh;
+    width: auto;
+    overflow-x: hidden;
+    display: flex;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.centered{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+  }
+p{
+    font-family: ArchivoBlack;
+    color: #FFF;
+    text-decoration: none;
+}
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 30vw;
+  }
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+footer{
+    margin: 30px;
+    max-height: 45px;
+}
